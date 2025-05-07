@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de Usuario</h2>
+        <form id="register-form">
+            <input type="text" id="name" placeholder="Nombre completo" required>
+            <input type="email" id="email" placeholder="Correo institucional" required>
+            <input type="tel" id="phone" placeholder="Teléfono" required>
+            <select id="department" required>
+                <option value="">Seleccione Departamento</option>
+            </select>
+            <select id="city" required>
+                <option value="">Seleccione Ciudad</option>
+            </select>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <button type="submit" class="btn">Registrar</button>
+            <p id="register-message" class="message"></p>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
