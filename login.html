@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Usuario</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Iniciar sesión</h2>
+        <form id="login-form">
+            <div class="form-group">
+                <label>Nombre de usuario *</label>
+                <input type="text" id="login-username" placeholder="nombre.usuario" required>
+                <small>@ucatolica.edu.co</small>
+            </div>
+            <div class="form-group">
+                <label>Contraseña *</label>
+                <input type="password" id="login-password" placeholder="Contraseña" required>
+            </div>
+            <p id="login-message" class="error-message"></p>
+            <button type="submit" class="btn">Ingresar</button>
+            <a href="index.html" class="link">Volver al inicio</a>
+            <a href="registro.html" class="link">¿No tienes cuenta? Registrarse</a>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
